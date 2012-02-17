@@ -4,7 +4,7 @@ module Alchemist
     attr_accessor :use_si
   end
   
-  @@si_units = %w[m meter metre meters metres liter litre litres liters l L farad farads F coulombs C gray grays Gy siemen siemens S mhos mho ohm ohms volt volts V ]
+  @@si_units = %w[m meter metre meters metres liter litre litres liters l L cubic_meter cubic_meters farad farads F coulombs C gray grays Gy siemen siemens S mhos mho ohm ohms volt volts V ]
   @@si_units += %w[joule joules J newton newtons N lux lx henry henrys H b B bits bytes bit byte lumen lumens lm candela candelas cd]
   @@si_units += %w[tesla teslas T gauss Gs G gram gramme grams grammes g watt watts W pascal pascals Pa]
   @@si_units += %w[becquerel becquerels Bq curie curies Ci]
