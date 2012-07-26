@@ -1,6 +1,4 @@
 # -*- encoding: utf-8 -*-
-PKG_FILES = %w(Rakefile) +
-  Dir.glob("{lib}/**/*")
 
 gem_spec = Gem::Specification.new do |gem_spec|
   gem_spec.name = 'alchemist'
@@ -10,5 +8,5 @@ gem_spec = Gem::Specification.new do |gem_spec|
   gem_spec.email = 'matt@toastyapps.com'
   gem_spec.homepage = 'http://github.com/toastyapps/alchemist'
   gem_spec.authors = ["Matthew Mongeau"]
-  gem_spec.files = PKG_FILES
+  gem_spec.files = %w(Rakefile) +  Dir.glob("{lib}/**/*")
 end
